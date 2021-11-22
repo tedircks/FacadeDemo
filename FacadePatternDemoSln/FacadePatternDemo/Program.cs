@@ -16,7 +16,11 @@ var serviceProvider = services.BuildServiceProvider();
 #endregion
 
 var facade = serviceProvider.GetService<IProductPageFacade>();
-facade.LoadProductForPage(1);
-facade.PlaceOrder(1, 10);
+
+var productId = 1;
+var orderQuantity = 10;
+
+facade.LoadProductForPage(productId);
+facade.PlaceOrder(productId, orderQuantity);
 
 while (true) { }

@@ -54,12 +54,12 @@ namespace FacadePatternDemo
     {
         public void IsProductInStock(int productId)
         {
-            Console.WriteLine($"Checking if product {productId} is in stock");
+            Console.WriteLine($"Checking if product id {productId} is in stock");
         }
 
         public void UpdateInventory(int productId, int updateBy)
         {
-            Console.WriteLine($"Updaing product {productId} inventory by {updateBy}");
+            Console.WriteLine($"Updating product id {productId} inventory by {updateBy}");
         }
     }
 
@@ -75,7 +75,7 @@ namespace FacadePatternDemo
     {
         public void GetDeliveryEstimate(int productId)
         {
-            Console.WriteLine($"Fetching delivery estimate for product {productId}");
+            Console.WriteLine($"Fetching delivery estimate for product id {productId}");
         }
 
         public void Initiate(int productId, int quantity)
@@ -88,17 +88,17 @@ namespace FacadePatternDemo
     {
         public void GetImagesForProduct(int productId)
         {
-            Console.WriteLine($"Loading images for product {productId}");
+            Console.WriteLine($"Loading images for product id {productId}");
         }
 
         public void GetRecommendedProducts(int productId)
         {
-            Console.WriteLine($"Fetching recommended products based on product {productId}");
+            Console.WriteLine($"Fetching recommended products based on product id {productId}");
         }
 
         public void LoadProduct(int productId)
         {
-            Console.WriteLine($"Loading product {productId}");
+            Console.WriteLine($"Loading product id {productId}");
         }
     }
 
@@ -106,7 +106,7 @@ namespace FacadePatternDemo
     {
         public void LoadReviews(int productId)
         {
-            Console.WriteLine($"Fetching reviews for product {productId}");
+            Console.WriteLine($"Fetching reviews for product id {productId}");
         }
     }
 }
