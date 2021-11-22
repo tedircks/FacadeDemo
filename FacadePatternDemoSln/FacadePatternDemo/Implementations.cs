@@ -27,7 +27,7 @@ namespace FacadePatternDemo
             _reviewService = reviewService;
         }
 
-        public void LoadPage(int productId)
+        public void LoadProductForPage(int productId)
         {
             Console.WriteLine("Begin - LoadPage");
             _productService.LoadProduct(productId);

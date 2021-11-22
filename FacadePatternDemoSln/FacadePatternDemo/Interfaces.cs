@@ -2,7 +2,7 @@
 {
     public interface IProductPageFacade
     {
-        void LoadPage(int productId);
+        void LoadProductForPage(int productId);
         void PlaceOrder(int productId, int quantity);
     }
 
